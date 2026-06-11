@@ -1,0 +1,22 @@
+{
+  "name": "desktop-game-timer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/tsconfig": "^0.9.1",
+    "sass": "^1.69.7",
+    "typescript": "^5.3.3",
+    "vite": "^4.5.2",
+    "vue-tsc": "^3.3.4"
+  }
+}
